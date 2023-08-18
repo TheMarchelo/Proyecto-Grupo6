@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:fragment="head">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GAMES CR</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link rel="stylesheet" href="Noticias.css" type="text/css"/>
+        <link rel="stylesheet" href="Lanzamientos.css" type="text/css"/>
+    </head>
+    <header th:fragment="header">
+        <img src="images/header.png" class="img-fluid" alt="header" style="height: 140px; width: 100%;"/>
+    </header>
+    <body>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-black">        
+            <div class="container-fluid">  
+         
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item" >
+                            <a class="nav-link text-white" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-success" href="Lanzamientos.html">Lanzamientos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Guias.html">Guias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Analisis.html">Analisis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Plataformas.html">Plataformas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="hardware.html">Hardware</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/producto">Usuario</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <img src="images/usuario.png" alt="usuario"/>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="p-5 bg-black text-success">
+            <div class="GuiasYTrucos">
+                <h1>LANZAMIENTOS_____________________________</h1>
+
+
+                <div class="p-5">
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="images/finalfantasy.jpg" class="card-img-top" alt="RDR2">
+                            <div class="card-text">
+                                <h2 class='TituloJuego'>FINAL FANTASY</h2>
+                                <p> Se trata de la decimosexta entrega de la franquicia <br> de Final Fantasy. El juego está siendo producido por Naoki <br>  Yoshida y dirigido por Hiroshi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="images/SOS.jpg" class="card-img-top" alt="FIFA">
+                            <div class="card-text">
+                                <h2>SEA OF STARS</h2>
+                                <p>Sea of ​​Stars es un próximo videojuego de <br> rol de Sabotage Studio</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="images/Baldur.jpg" class="card-img-top" alt="minecraft">
+                            <div class="card-text">
+                                <h2>BALDUR</h2>
+                                <p> es un próximo videojuego de rol desarrollado y <br> publicado por Larian Studios</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="images/LiesP.jpg" class="card-img-top" alt="fortnite">
+                            <div class="card-text">
+                                <h2>LIES OF P</h2>
+                                <p> Lies of P le da un giro oscuro al conocido cuento de Pinocho.<br> Despertado por una voz misteriosa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="images/Starfield.jpg" class="card-img-top" alt="warzone">
+                            <div class="card-text">
+                                <h2>STARFIELD</h2>
+                                <p>Starfield es un próximo videojuego de rol de ciencia ficción <br> desarrollado por Bethesda Game Studios.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="p-5 bg-black text-success">
+                <div class="perifericos" style="position: absolute; top: 242px; left: 880px;">
+                    <h1>_____________________________</h1>
+                    <h1 class="tituloLanzamientos">TOP YA A LA VENTA</h1>
+                    <div class="p-5">
+                        <div class="card-container-derecha">
+                            <div class="card-derecha">
+                                <img src="images/Spider-Man.jpg" class="card-img-top" alt="RDR2">
+                                <div class="card-text-derecha">
+                                    <h2 class="card-h2-derecha">Marvel's Spider-Man 2</h2>
+                                    <p class="card-p-derecha">Marvel's Spider-Man 2 va a tener una tecnología de diálogos 'muy chula', cuenta un desarrollador de Insomniac Games</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container-derecha">
+                            <div class="card-derecha">
+                                <img src="images/OnePiece.jpg" class="card-img-top" alt="RDR2">
+                                <div class="card-text-derecha">
+                                    <h2 class="card-h2-derecha">One Piece Odyssey</h2>
+                                    <p class="card-p-derecha">One Piece Odyssey es un videojuego de rol de 2023 desarrollado por ILCA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container-derecha">
+                            <div class="card-derecha">
+                                <img src="images/Osiris.png" class="card-img-top" alt="RDR2">
+                                <div class="card-text-derecha">
+                                    <h2 class="card-h2-derecha">Osiris: New Dawn</h2>
+                                    <p class="card-p-derecha">Osiris: New Dawn es un videojuego de supervivencia de ciencia ficción de mundo abierto desarrollado por Fenix ​​Fire</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container-derecha">
+                            <div class="card-derecha">
+                                <img src="images/FireEmblem.jpg" class="card-img-top" alt="RDR2">
+                                <div class="card-text-derecha">
+                                    <h2 class="card-h2-derecha">Fire Emblem Engage</h2>
+                                    <p class="card-p-derecha">Engage es un videojuego de rol táctico para Nintendo Switch, desarrollado por Intelligent Systems</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer" class="footer-1  bg-success text-black">
+            <div class="main-footer widgets-dark typo-light">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="widget subscribe no-box">
+                                <h5 class="widget-title">GAMESCR<span></span></h5>
+                                <p class="text-white">En GamesCr, podras ver todo tipo de contenido Gamer, desde nuevos lanzamientos, hasta los mejores 
+                                    componentes para tu consola soñada. También podras realizar compras y ver noticias actualizadas 
+                                    acerca del mundo Gamer.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="widget no-box">
+                                <h5 class="widget-title">Quick Links<span></span></h5>
+                                <ul class="thumbnail-widget">
+                                    <li class="item" >
+                                        <a class="link text-white" aria-current="page" href="index.html">Inicio</a>
+                                    </li>
+                                    <li class="item" >
+                                        <a class="link text-white" aria-current="page" href="Lanzamientos.html">Lanzamientos</a>
+                                    </li>
+                                    <li class="item" >
+                                        <a class="link text-white" aria-current="page" href="Noticias.html">Noticias</a>
+                                    </li>
+                                    <li class="item" >
+                                        <a class="link text-white" aria-current="page" href="Guias.html">Guias</a>
+                                    </li>
+                                    <li class="item" >
+                                        <a class="link text-white" aria-current="page" href="Analisis.html">Analisis</a>
+                                    </li>
+                                    <li class="item" >
+                                        <a class="link text-white" aria-current="page" href="Plataformas.html">Plataformas</a>
+                                    </li>
+                                    <li class="item" >
+                                        <a class="link text-white" aria-current="page" href="hardware.html">Hardware</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="/producto">Base De Datos</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="widget no-box">
+                                <h5 class="widget-title" th:text="#cliente.titulo">Unete<span></span></h5>
+                                <p class="text-white" th:text="#cliente.titulo">Registrate en GamesCR, para que no te pierdas de los ultimos lanzamientos, y para que puedas comprar
+                                    en el sitio web.</p>
+                                <a class="btn bg-black text-white" href="registro.html" target="_blank">Registrate</a>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+
+                            <div class="widget no-box">
+                                <h5 class="widget-title">Contact Us<span></span></h5>
+                                <a class="link text-white" aria-current="page" href="#" >Grupo6@noexiste.com</a>
+                                </li>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p>Copyright Company Name © 2023. All rights reserved.
+                            </p>
+
+                            <div class="col-md-12 text-center">
+                                <a href="@{/{lang=es}}">ES</a>
+                                <a href="@{/{lang=en}}">EN</a>
+                                <!--  
+                                <p>segunda forma</p>
+                            
+                                <a href="?lang=en">EN</a>
+                                <a href="?lang=es">ES</a>
+                            
+                                -->
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
